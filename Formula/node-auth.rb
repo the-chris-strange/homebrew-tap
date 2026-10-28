@@ -5,26 +5,26 @@
 class NodeAuth < Formula
   desc "Rust library and cli tool that authenticates to private npm registries (e.g. goo"
   homepage "https://github.com/the-chris-strange/node-auth"
-  url "https://github.com/the-chris-strange/node-auth/archive/refs/tags/v0.4.1.tar.gz"
-  sha256 "43813e4e8385c15ff7b5b7a63fc2944bf03fe4bba268b5421811237fb1d3928c"
+  url "https://github.com/the-chris-strange/node-auth/archive/refs/tags/v0.5.0.tar.gz"
+  sha256 "66081075f4e8f8dbe757a498e3faab8dc5fc4da57b1fac35b1c002f5c5bde9d8"
   license "Apache-2.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/the-chris-strange/node-auth/releases/download/v0.4.1/node-auth-0.4.1-darwin-amd64.tar.gz"
-      sha256 "72b05dde2cf278e2374fdd7edbf3991743990cf5962d9829d673a2087c5d14f0"
+      url "https://github.com/the-chris-strange/node-auth/releases/download/v0.5.0/node-auth-0.5.0-darwin-amd64.tar.gz"
+      sha256 "f00445e47162608a4cd4527ea035f07dc05ee2907daa29572fff831519f9c77a"
     end
 
     on_arm do
-      url "https://github.com/the-chris-strange/node-auth/releases/download/v0.4.1/node-auth-0.4.1-darwin-arm64.tar.gz"
-      sha256 "151d965bf1f251a35d842dd476a4a6e310aa7a794447a58ed11304a8ef21143e"
+      url "https://github.com/the-chris-strange/node-auth/releases/download/v0.5.0/node-auth-0.5.0-darwin-arm64.tar.gz"
+      sha256 "eb0b517d4b7eb7f6cacc7c075b66d8d3ec18218a688583368fd02a9d4b36e42b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/the-chris-strange/node-auth/releases/download/v0.4.1/node-auth-0.4.1-linux-amd64.tar.gz"
-      sha256 "660aa049788eeda4be492cd0032e74acffb2f06f49adbb5bd9b0f611892ea80d"
+      url "https://github.com/the-chris-strange/node-auth/releases/download/v0.5.0/node-auth-0.5.0-linux-amd64.tar.gz"
+      sha256 "114f921bee9a5decbd2b2d590b16552bedcc2b6cc4bfbe6dfd4210d9ac8984bc"
     end
   end
 
